@@ -1,0 +1,12 @@
+{
+    "name": "sungtaerim/web",
+    "description": "shimmi test",
+    "license": "top-secret",
+    "authors": [
+        {
+            "name": "Mary Ermolina",
+            "email": "maryaermolina@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
