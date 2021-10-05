@@ -132,96 +132,83 @@ class Result
 //Массив с результатами
 const results = 
 [
-	new Result("Вам многому нужно научиться", 0),
-	new Result("Вы уже неплохо разбираетесь", 2),
-	new Result("Ваш уровень выше среднего", 4),
-	new Result("Вы в совершенстве знаете тему", 6)
+	new Result("Ты не можешь отвести взгляд от мемберов, мы всё понимаем :)", 0),
+	new Result("Ты не можешь отвести взгляд от мемберов, мы всё понимаем :)", 1),
+	new Result("Ты не можешь отвести взгляд от мемберов, мы всё понимаем :)", 2),
+	new Result("Почти всё смог заметить!", 3),
+	new Result("Почти всё смог заметить!", 4),
+	new Result("Ты очень внимательно смотришь клипы!", 5)
 ];
 
 //Массив с вопросами
 const questions = 
 [
+	new Question("Здесь будет описание квеста ",
+	[
+		new Answer("Начать!", 0)
+	]),
+
 	new Question(
-		`<iframe width="560" height="315" src="https://www.youtube.com/embed/2IkoKhr6Tss" 
+		`<p>Сколько раз появляется надпись 'L-1485'?</p>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/2IkoKhr6Tss" 
 		title="YouTube video player" frameborder="0" 
 		allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
 		allowfullscreen></iframe>`,
 	[
-		new Answer("Далее", 0)
-	]),
-
-	new Question("Who is EXO's leader?", 
-	[
-		new Answer("Chanyeol", 0),
-		new Answer("Kai", 0),
-		new Answer("Suho", 1),
-		new Answer("Lay", 0)
+		new Answer("5", 1),
+		new Answer("3", 0),
+		new Answer("7", 0),
+		new Answer("10", 0)
 	]),
 
 	new Question(
-		`<iframe width="560" height="315" src="https://www.youtube.com/embed/uxmP4b2a0uY" 
+		`<p>Сколько пирсинга в ухе имеет X-Chen?</p>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/uxmP4b2a0uY" 
 		title="YouTube video player" frameborder="0" 
 		allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
 		allowfullscreen></iframe>`,
 	[
-		new Answer("Далее", 0)
-	]),
-
-	new Question("All of the songs on Don't Mess Up My Tempo correlate to an EXO member and their superpower. Which song is related to D.O?", 
-	[
-		new Answer("Ooh La La La", 0),
-		new Answer("Gravity", 1),
-		new Answer("Sing", 0),
-		new Answer("Damage", 0)
+		new Answer("4", 0),
+		new Answer("3", 0),
+		new Answer("6", 1),
+		new Answer("0", 0)
 	]),
 
 	new Question(
-		`<iframe width="560" height="315" src="https://www.youtube.com/embed/KSH-FVVtTf0" 
+		`<p>Какого числа происходят действия в клипе?</p>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/KSH-FVVtTf0" 
 		title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
 		encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
 	[
-		new Answer("Далее", 0)
+		new Answer("23", 0),
+		new Answer("26", 0),
+		new Answer("28", 1),
+		new Answer("Неизвестно", 0)
 	]),
 
-	new Question("In an Imagine Your Korea tourism ad, which member said: 'Have you ever slept?'", 
+	new Question(
+		`<p>У кого из мемберов не было глича?</p>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/iwd8N6K-sLk" 
+		title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+		encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
 	[
-		new Answer("Suho", 1),
+		new Answer("Chen", 0),
 		new Answer("Sehun", 0),
-		new Answer("D.O", 0),
-		new Answer("Chen", 0)
+		new Answer("Suho", 0),
+		new Answer("D.O", 1)
 	]),
 
 	new Question(
-		`<iframe width="560" height="315" src="https://www.youtube.com/embed/iwd8N6K-sLk" 
+		`<p>Во сколько мальчики дома?</p>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/6T8Iy2lktgo" 
 		title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
 		encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
 	[
-		new Answer("Далее", 0)
+		new Answer("4:18 pm", 0),
+		new Answer("4:18 am", 1),
+		new Answer("4:16 pm", 0),
+		new Answer("4:16 am", 0)
 	]),
-
-	new Question("When did EXO debut?", 
-	[
-		new Answer("May 6th, 1992", 0),
-		new Answer("April 8th, 2012", 1),
-		new Answer("September 21st, 1992", 0),
-		new Answer("August 5th, 2013", 0)
-	]),
-
-	new Question(
-		`<iframe width="560" height="315" src="https://www.youtube.com/embed/6T8Iy2lktgo" 
-		title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
-		encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
-	[
-		new Answer("Далее", 0)
-	]),
-
-	new Question("Altogether, how many pets does EXO have?", 
-	[
-		new Answer("5", 0),
-		new Answer("9", 0),
-		new Answer("13", 1),
-		new Answer("None", 0)
-	])
 ];
 
 //Сам тест
