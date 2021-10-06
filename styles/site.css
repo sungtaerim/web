@@ -10,10 +10,11 @@ body, html
 	color: #111;
 }
 
-.wrapper
+iframe
 {
-	width: 100%;
-}
+	width: calc(400px + (600 - 400) * ((100vw - 500px) / (1920 - 500)));
+	height: 720px;
+}	
 
 .quiz-frame
 {

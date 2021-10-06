@@ -149,8 +149,14 @@ const questions =
 	]),
 
 	new Question(
-		`<p>Сколько раз появляется надпись 'L-1485'?</p>
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/2IkoKhr6Tss" 
+		`<style>
+			iframe
+			{
+				width: calc(360px + (560 - 360) * ((100vw - 500px) / (1920 - 500)));
+			}
+		</style>
+		<p>Сколько раз появляется надпись 'L-1485'?</p>
+		<iframe src="https://www.youtube.com/embed/2IkoKhr6Tss" 
 		title="YouTube video player" frameborder="0" 
 		allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
 		allowfullscreen></iframe>`,
@@ -162,8 +168,14 @@ const questions =
 	]),
 
 	new Question(
-		`<p>Сколько пирсинга в ухе имеет X-Chen?</p>
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/uxmP4b2a0uY" 
+		`<style>
+			iframe
+			{
+				width: calc(360px + (560 - 360) * ((100vw - 500px) / (1920 - 500)));
+			}
+		</style>
+		<p>Сколько пирсинга в ухе имеет X-Chen?</p>
+		<iframe src="https://www.youtube.com/embed/uxmP4b2a0uY" 
 		title="YouTube video player" frameborder="0" 
 		allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
 		allowfullscreen></iframe>`,
@@ -175,8 +187,14 @@ const questions =
 	]),
 
 	new Question(
-		`<p>Какого числа происходят действия в клипе?</p>
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/KSH-FVVtTf0" 
+		`<style>
+			iframe
+			{
+				width: calc(360px + (560 - 360) * ((100vw - 500px) / (1920 - 500)));
+			}
+		</style>
+		<p>Какого числа происходят действия в клипе?</p>
+		<iframe src="https://www.youtube.com/embed/KSH-FVVtTf0" 
 		title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
 		encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
 	[
@@ -187,8 +205,14 @@ const questions =
 	]),
 
 	new Question(
-		`<p>У кого из мемберов не было глича?</p>
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/iwd8N6K-sLk" 
+		`<style>
+			iframe
+			{
+				width: calc(360px + (560 - 360) * ((100vw - 500px) / (1920 - 500)));
+			}
+		</style>
+		<p>У кого из мемберов не было глича?</p>
+		<iframe src="https://www.youtube.com/embed/iwd8N6K-sLk" 
 		title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
 		encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
 	[
@@ -199,8 +223,14 @@ const questions =
 	]),
 
 	new Question(
-		`<p>Во сколько мальчики дома?</p>
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/6T8Iy2lktgo" 
+		`<style>
+			iframe
+			{
+				width: calc(360px + (560 - 360) * ((100vw - 500px) / (1920 - 500)));
+			}
+		</style>
+		<p>Во сколько мальчики дома?</p>
+		<iframe src="https://www.youtube.com/embed/6T8Iy2lktgo" 
 		title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
 		encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
 	[
