@@ -132,12 +132,12 @@ class Result
 //Массив с результатами
 const results = 
 [
-	new Result(`<img src="end-1.png">`, 0),
-	new Result(`<img src="end-1.png">`, 1),
-	new Result(`<img src="end-1.png">`, 2),
-	new Result(`<img src="end-2.png">`, 3),
-	new Result(`<img src="end-2.png">`, 4),
-	new Result(`<img src="end-3.png">`, 5)
+	new Result(`<img src="end-1.png"><p>0/5</p>`, 0),
+	new Result(`<img src="end-1.png"><p>1/5</p>`, 1),
+	new Result(`<img src="end-1.png"><p>2/5</p>`, 2),
+	new Result(`<img src="end-2.png"><p>3/5</p>`, 3),
+	new Result(`<img src="end-2.png"><p>4/5</p>`, 4),
+	new Result(`<img src="end-3.png"><p>5/5</p>`, 5)
 ];
 
 //Массив с вопросами
@@ -242,7 +242,7 @@ function Update()
 		}
 		
 		//Выводим номер текущего вопроса
-		//pagesElem.innerHTML = (quiz.current + 1) + " / " + quiz.questions.length;
+		// pagesElem.innerHTML = (quiz.current + 1) + " / " + quiz.questions.length;
 
 		//Вызываем функцию, которая прикрепит события к новым кнопкам
 		Init();
