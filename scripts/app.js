@@ -132,12 +132,12 @@ class Result
 //Массив с результатами
 const results = 
 [
-	new Result("Ты не можешь отвести взгляд от мемберов, мы всё понимаем :)", 0),
-	new Result("Ты не можешь отвести взгляд от мемберов, мы всё понимаем :)", 1),
-	new Result("Ты не можешь отвести взгляд от мемберов, мы всё понимаем :)", 2),
-	new Result("Почти всё смог заметить!", 3),
-	new Result("Почти всё смог заметить!", 4),
-	new Result("Ты очень внимательно смотришь клипы!", 5)
+	new Result(`<img src="end-1.png">`, 0),
+	new Result(`<img src="end-1.png">`, 1),
+	new Result(`<img src="end-1.png">`, 2),
+	new Result(`<img src="end-2.png">`, 3),
+	new Result(`<img src="end-2.png">`, 4),
+	new Result(`<img src="end-3.png">`, 5)
 ];
 
 //Массив с вопросами
