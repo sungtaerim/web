@@ -150,11 +150,25 @@ const questions =
 
 	new Question(
 		`<style>
-			iframe
+		iframe
 			{
-				width: calc(360px + (560 - 360) * ((100vw - 500px) / (1920 - 500)));
+				width: 100%;
+				height: 315px;
+				border: 0;
+
+				-ms-transform: scale(1);
+				-moz-transform: scale(1);
+				-o-transform: scale(1);
+				-webkit-transform: scale(1);
+				transform: scale(1);
+
+				-ms-transform-origin: 0 0;
+				-moz-transform-origin: 0 0;
+				-o-transform-origin: 0 0;
+				-webkit-transform-origin: 0 0;
+				transform-origin: 0 0;
 			}
-		</style>
+	</style>
 		<p>Сколько раз появляется надпись 'L-1485'?</p>
 		<iframe src="https://www.youtube.com/embed/2IkoKhr6Tss" 
 		title="YouTube video player" frameborder="0" 
@@ -169,9 +183,23 @@ const questions =
 
 	new Question(
 		`<style>
-			iframe
+		iframe
 			{
-				width: calc(360px + (560 - 360) * ((100vw - 500px) / (1920 - 500)));
+				width: 100%;
+				height: 315px;
+				border: 0;
+
+				-ms-transform: scale(1);
+				-moz-transform: scale(1);
+				-o-transform: scale(1);
+				-webkit-transform: scale(1);
+				transform: scale(1);
+
+				-ms-transform-origin: 0 0;
+				-moz-transform-origin: 0 0;
+				-o-transform-origin: 0 0;
+				-webkit-transform-origin: 0 0;
+				transform-origin: 0 0;
 			}
 		</style>
 		<p>Сколько пирсинга в ухе имеет X-Chen?</p>
@@ -188,9 +216,23 @@ const questions =
 
 	new Question(
 		`<style>
-			iframe
+		iframe
 			{
-				width: calc(360px + (560 - 360) * ((100vw - 500px) / (1920 - 500)));
+				width: 100%;
+				height: 315px;
+				border: 0;
+
+				-ms-transform: scale(1);
+				-moz-transform: scale(1);
+				-o-transform: scale(1);
+				-webkit-transform: scale(1);
+				transform: scale(1);
+
+				-ms-transform-origin: 0 0;
+				-moz-transform-origin: 0 0;
+				-o-transform-origin: 0 0;
+				-webkit-transform-origin: 0 0;
+				transform-origin: 0 0;
 			}
 		</style>
 		<p>Какого числа происходят действия в клипе?</p>
@@ -206,9 +248,23 @@ const questions =
 
 	new Question(
 		`<style>
-			iframe
+		iframe
 			{
-				width: calc(360px + (560 - 360) * ((100vw - 500px) / (1920 - 500)));
+				width: 100%;
+				height: 315px;
+				border: 0;
+
+				-ms-transform: scale(1);
+				-moz-transform: scale(1);
+				-o-transform: scale(1);
+				-webkit-transform: scale(1);
+				transform: scale(1);
+
+				-ms-transform-origin: 0 0;
+				-moz-transform-origin: 0 0;
+				-o-transform-origin: 0 0;
+				-webkit-transform-origin: 0 0;
+				transform-origin: 0 0;
 			}
 		</style>
 		<p>У кого из мемберов не было глича?</p>
@@ -224,9 +280,23 @@ const questions =
 
 	new Question(
 		`<style>
-			iframe
+		iframe
 			{
-				width: calc(360px + (560 - 360) * ((100vw - 500px) / (1920 - 500)));
+				width: 100%;
+				height: 315px;
+				border: 0;
+
+				-ms-transform: scale(1);
+				-moz-transform: scale(1);
+				-o-transform: scale(1);
+				-webkit-transform: scale(1);
+				transform: scale(1);
+
+				-ms-transform-origin: 0 0;
+				-moz-transform-origin: 0 0;
+				-o-transform-origin: 0 0;
+				-webkit-transform-origin: 0 0;
+				transform-origin: 0 0;
 			}
 		</style>
 		<p>Во сколько мальчики дома?</p>
