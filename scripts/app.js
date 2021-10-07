@@ -133,136 +133,22 @@ class Result
 const results = 
 [
 	new Result(
-		`<style>
-		img
-			{
-				width: 100%;
-				height: 100%;
-				border: 0;
-
-				-ms-transform: scale(1);
-				-moz-transform: scale(1);
-				-o-transform: scale(1);
-				-webkit-transform: scale(1);
-				transform: scale(1);
-
-				-ms-transform-origin: 0 0;
-				-moz-transform-origin: 0 0;
-				-o-transform-origin: 0 0;
-				-webkit-transform-origin: 0 0;
-				transform-origin: 0 0;
-			}
-		</style>
+		`<link rel="stylesheet" type="text/css" href="styles/video.css">
 		<img src="end-1.png"><p>0/5</p>`, 0),
-	new Result(`
-		<style>
-			img
-				{
-					width: 100%;
-					height: 100%;
-					border: 0;
-
-					-ms-transform: scale(1);
-					-moz-transform: scale(1);
-					-o-transform: scale(1);
-					-webkit-transform: scale(1);
-					transform: scale(1);
-
-					-ms-transform-origin: 0 0;
-					-moz-transform-origin: 0 0;
-					-o-transform-origin: 0 0;
-					-webkit-transform-origin: 0 0;
-					transform-origin: 0 0;
-				}
-		</style>
+	new Result(
+		`<link rel="stylesheet" type="text/css" href="styles/video.css">
 		<img src="end-1.png"><p>1/5</p>`, 1),
-	new Result(`
-		<style>
-			img
-				{
-					width: 100%;
-					height: 100%;
-					border: 0;
-
-					-ms-transform: scale(1);
-					-moz-transform: scale(1);
-					-o-transform: scale(1);
-					-webkit-transform: scale(1);
-					transform: scale(1);
-
-					-ms-transform-origin: 0 0;
-					-moz-transform-origin: 0 0;
-					-o-transform-origin: 0 0;
-					-webkit-transform-origin: 0 0;
-					transform-origin: 0 0;
-				}
-		</style>
+	new Result(
+		`<link rel="stylesheet" type="text/css" href="styles/video.css">
 		<img src="end-1.png"><p>2/5</p>`, 2),
-	new Result(`
-	<style>
-		img
-			{
-				width: 100%;
-				height: 100%;
-				border: 0;
-
-				-ms-transform: scale(1);
-				-moz-transform: scale(1);
-				-o-transform: scale(1);
-				-webkit-transform: scale(1);
-				transform: scale(1);
-
-				-ms-transform-origin: 0 0;
-				-moz-transform-origin: 0 0;
-				-o-transform-origin: 0 0;
-				-webkit-transform-origin: 0 0;
-				transform-origin: 0 0;
-			}
-		</style>
-	<img src="end-2.png"><p>3/5</p>`, 3),
-	new Result(`
-		<style>
-			img
-				{
-					width: 100%;
-					height: 100%;
-					border: 0;
-
-					-ms-transform: scale(1);
-					-moz-transform: scale(1);
-					-o-transform: scale(1);
-					-webkit-transform: scale(1);
-					transform: scale(1);
-
-					-ms-transform-origin: 0 0;
-					-moz-transform-origin: 0 0;
-					-o-transform-origin: 0 0;
-					-webkit-transform-origin: 0 0;
-					transform-origin: 0 0;
-				}
-		</style>
+	new Result(
+		`<link rel="stylesheet" type="text/css" href="styles/video.css">
+		<img src="end-2.png"><p>3/5</p>`, 3),
+	new Result(
+		`<link rel="stylesheet" type="text/css" href="styles/video.css">
 		<img src="end-2.png"><p>4/5</p>`, 4),
-	new Result(`
-		<style>
-			img
-				{
-					width: 100%;
-					height: 100%;
-					border: 0;
-
-					-ms-transform: scale(1);
-					-moz-transform: scale(1);
-					-o-transform: scale(1);
-					-webkit-transform: scale(1);
-					transform: scale(1);
-
-					-ms-transform-origin: 0 0;
-					-moz-transform-origin: 0 0;
-					-o-transform-origin: 0 0;
-					-webkit-transform-origin: 0 0;
-					transform-origin: 0 0;
-				}
-		</style>
+	new Result(
+		`<link rel="stylesheet" type="text/css" href="styles/video.css">
 		<img src="end-3.png"><p>5/5</p>`, 5)
 ];
 
@@ -275,26 +161,7 @@ const questions =
 	]),
 
 	new Question(
-		`<style>
-		iframe
-			{
-				width: 100%;
-				height: 315px;
-				border: 0;
-
-				-ms-transform: scale(1);
-				-moz-transform: scale(1);
-				-o-transform: scale(1);
-				-webkit-transform: scale(1);
-				transform: scale(1);
-
-				-ms-transform-origin: 0 0;
-				-moz-transform-origin: 0 0;
-				-o-transform-origin: 0 0;
-				-webkit-transform-origin: 0 0;
-				transform-origin: 0 0;
-			}
-	</style>
+		`<link rel="stylesheet" type="text/css" href="styles/video.css">
 		<p>Сколько раз появляется надпись 'L-1485'?</p>
 		<iframe src="https://www.youtube.com/embed/2IkoKhr6Tss" 
 		title="YouTube video player" frameborder="0" 
@@ -308,26 +175,7 @@ const questions =
 	]),
 
 	new Question(
-		`<style>
-		iframe
-			{
-				width: 100%;
-				height: 315px;
-				border: 0;
-
-				-ms-transform: scale(1);
-				-moz-transform: scale(1);
-				-o-transform: scale(1);
-				-webkit-transform: scale(1);
-				transform: scale(1);
-
-				-ms-transform-origin: 0 0;
-				-moz-transform-origin: 0 0;
-				-o-transform-origin: 0 0;
-				-webkit-transform-origin: 0 0;
-				transform-origin: 0 0;
-			}
-		</style>
+		`<link rel="stylesheet" type="text/css" href="styles/video.css">
 		<p>Сколько пирсинга в ухе имеет X-Chen?</p>
 		<iframe src="https://www.youtube.com/embed/uxmP4b2a0uY" 
 		title="YouTube video player" frameborder="0" 
@@ -341,26 +189,7 @@ const questions =
 	]),
 
 	new Question(
-		`<style>
-		iframe
-			{
-				width: 100%;
-				height: 315px;
-				border: 0;
-
-				-ms-transform: scale(1);
-				-moz-transform: scale(1);
-				-o-transform: scale(1);
-				-webkit-transform: scale(1);
-				transform: scale(1);
-
-				-ms-transform-origin: 0 0;
-				-moz-transform-origin: 0 0;
-				-o-transform-origin: 0 0;
-				-webkit-transform-origin: 0 0;
-				transform-origin: 0 0;
-			}
-		</style>
+		`<link rel="stylesheet" type="text/css" href="styles/video.css">
 		<p>Какого числа происходят действия в клипе?</p>
 		<iframe src="https://www.youtube.com/embed/KSH-FVVtTf0" 
 		title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
@@ -373,26 +202,7 @@ const questions =
 	]),
 
 	new Question(
-		`<style>
-		iframe
-			{
-				width: 100%;
-				height: 315px;
-				border: 0;
-
-				-ms-transform: scale(1);
-				-moz-transform: scale(1);
-				-o-transform: scale(1);
-				-webkit-transform: scale(1);
-				transform: scale(1);
-
-				-ms-transform-origin: 0 0;
-				-moz-transform-origin: 0 0;
-				-o-transform-origin: 0 0;
-				-webkit-transform-origin: 0 0;
-				transform-origin: 0 0;
-			}
-		</style>
+		`<link rel="stylesheet" type="text/css" href="styles/video.css">
 		<p>У кого из мемберов не было глича?</p>
 		<iframe src="https://www.youtube.com/embed/iwd8N6K-sLk" 
 		title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
@@ -405,26 +215,7 @@ const questions =
 	]),
 
 	new Question(
-		`<style>
-		iframe
-			{
-				width: 100%;
-				height: 315px;
-				border: 0;
-
-				-ms-transform: scale(1);
-				-moz-transform: scale(1);
-				-o-transform: scale(1);
-				-webkit-transform: scale(1);
-				transform: scale(1);
-
-				-ms-transform-origin: 0 0;
-				-moz-transform-origin: 0 0;
-				-o-transform-origin: 0 0;
-				-webkit-transform-origin: 0 0;
-				transform-origin: 0 0;
-			}
-		</style>
+		`<link rel="stylesheet" type="text/css" href="styles/video.css">
 		<p>Во сколько мальчики дома?</p>
 		<iframe src="https://www.youtube.com/embed/6T8Iy2lktgo" 
 		title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
