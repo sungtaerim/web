@@ -132,12 +132,138 @@ class Result
 //Массив с результатами
 const results = 
 [
-	new Result(`<img src="end-1.png"><p>0/5</p>`, 0),
-	new Result(`<img src="end-1.png"><p>1/5</p>`, 1),
-	new Result(`<img src="end-1.png"><p>2/5</p>`, 2),
-	new Result(`<img src="end-2.png"><p>3/5</p>`, 3),
-	new Result(`<img src="end-2.png"><p>4/5</p>`, 4),
-	new Result(`<img src="end-3.png"><p>5/5</p>`, 5)
+	new Result(
+		`<style>
+		img
+			{
+				width: 100%;
+				height: 100%;
+				border: 0;
+
+				-ms-transform: scale(1);
+				-moz-transform: scale(1);
+				-o-transform: scale(1);
+				-webkit-transform: scale(1);
+				transform: scale(1);
+
+				-ms-transform-origin: 0 0;
+				-moz-transform-origin: 0 0;
+				-o-transform-origin: 0 0;
+				-webkit-transform-origin: 0 0;
+				transform-origin: 0 0;
+			}
+		</style>
+		<img src="end-1.png"><p>0/5</p>`, 0),
+	new Result(`
+		<style>
+			img
+				{
+					width: 100%;
+					height: 100%;
+					border: 0;
+
+					-ms-transform: scale(1);
+					-moz-transform: scale(1);
+					-o-transform: scale(1);
+					-webkit-transform: scale(1);
+					transform: scale(1);
+
+					-ms-transform-origin: 0 0;
+					-moz-transform-origin: 0 0;
+					-o-transform-origin: 0 0;
+					-webkit-transform-origin: 0 0;
+					transform-origin: 0 0;
+				}
+		</style>
+		<img src="end-1.png"><p>1/5</p>`, 1),
+	new Result(`
+		<style>
+			img
+				{
+					width: 100%;
+					height: 100%;
+					border: 0;
+
+					-ms-transform: scale(1);
+					-moz-transform: scale(1);
+					-o-transform: scale(1);
+					-webkit-transform: scale(1);
+					transform: scale(1);
+
+					-ms-transform-origin: 0 0;
+					-moz-transform-origin: 0 0;
+					-o-transform-origin: 0 0;
+					-webkit-transform-origin: 0 0;
+					transform-origin: 0 0;
+				}
+		</style>
+		<img src="end-1.png"><p>2/5</p>`, 2),
+	new Result(`
+	<style>
+		img
+			{
+				width: 100%;
+				height: 100%;
+				border: 0;
+
+				-ms-transform: scale(1);
+				-moz-transform: scale(1);
+				-o-transform: scale(1);
+				-webkit-transform: scale(1);
+				transform: scale(1);
+
+				-ms-transform-origin: 0 0;
+				-moz-transform-origin: 0 0;
+				-o-transform-origin: 0 0;
+				-webkit-transform-origin: 0 0;
+				transform-origin: 0 0;
+			}
+		</style>
+	<img src="end-2.png"><p>3/5</p>`, 3),
+	new Result(`
+		<style>
+			img
+				{
+					width: 100%;
+					height: 100%;
+					border: 0;
+
+					-ms-transform: scale(1);
+					-moz-transform: scale(1);
+					-o-transform: scale(1);
+					-webkit-transform: scale(1);
+					transform: scale(1);
+
+					-ms-transform-origin: 0 0;
+					-moz-transform-origin: 0 0;
+					-o-transform-origin: 0 0;
+					-webkit-transform-origin: 0 0;
+					transform-origin: 0 0;
+				}
+		</style>
+		<img src="end-2.png"><p>4/5</p>`, 4),
+	new Result(`
+		<style>
+			img
+				{
+					width: 100%;
+					height: 100%;
+					border: 0;
+
+					-ms-transform: scale(1);
+					-moz-transform: scale(1);
+					-o-transform: scale(1);
+					-webkit-transform: scale(1);
+					transform: scale(1);
+
+					-ms-transform-origin: 0 0;
+					-moz-transform-origin: 0 0;
+					-o-transform-origin: 0 0;
+					-webkit-transform-origin: 0 0;
+					transform-origin: 0 0;
+				}
+		</style>
+		<img src="end-3.png"><p>5/5</p>`, 5)
 ];
 
 //Массив с вопросами

@@ -5,7 +5,7 @@ body, html
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	font-size: 16px;
+	font-size: 15px;
 	font-family:Verdana, Geneva, Tahoma, sans-serif;
 	background: #f9f9f9;
 	color: #111;
@@ -33,10 +33,10 @@ body, html
 
 .quiz__head
 {
-	font-size: 20pt;
+	font-size: 15pt;
 	font-family:Verdana, Geneva, Tahoma, sans-serif;
 	margin: 10px;
-	margin-bottom: 40px;
+	margin-bottom: 30px;
 }
 
 .head__content 
@@ -65,13 +65,12 @@ body, html
 
 .button
 {
-	
 	border-radius: 30px;
 	background: #6476eb00;
 	border-color: #43a162;
 	border-width: 2px;
 	color: #033a15;
-	padding: 10px 25px;
+	padding: 5px 25px;
 	width: 70%;
 	font-size: 15pt;
 	font-family:Verdana, Geneva, Tahoma, sans-serif;
