@@ -2,6 +2,10 @@ const headElem = document.getElementById("head");
 const buttonsElem = document.getElementById("buttons");
 const pagesElem = document.getElementById("pages");
 
+const likesElem = document.getElementById("likes");
+const twiElem = document.getElementById("twi");
+const vkElem = document.getElementById("vk");
+
 //Класс, который представляет сам тест
 class Quiz
 {
@@ -134,22 +138,22 @@ const results =
 [
 	new Result(
 		`<link rel="stylesheet" type="text/css" href="styles/video.css">
-		<img src="end-1.png"><p>0/5</p>`, 0),
+		<img src="end-1.png">`, 0),
 	new Result(
 		`<link rel="stylesheet" type="text/css" href="styles/video.css">
-		<img src="end-1.png"><p>1/5</p>`, 1),
+		<img src="end-1.png">`, 1),
 	new Result(
 		`<link rel="stylesheet" type="text/css" href="styles/video.css">
-		<img src="end-1.png"><p>2/5</p>`, 2),
+		<img src="end-1.png">`, 2),
 	new Result(
 		`<link rel="stylesheet" type="text/css" href="styles/video.css">
-		<img src="end-2.png"><p>3/5</p>`, 3),
+		<img src="end-2.png">`, 3),
 	new Result(
 		`<link rel="stylesheet" type="text/css" href="styles/video.css">
-		<img src="end-2.png"><p>4/5</p>`, 4),
+		<img src="end-2.png">`, 4),
 	new Result(
 		`<link rel="stylesheet" type="text/css" href="styles/video.css">
-		<img src="end-3.png"><p>5/5</p>`, 5)
+		<img src="end-3.png">`, 5)
 ];
 
 //Массив с вопросами
@@ -270,6 +274,19 @@ function Update()
 		buttonsElem.innerHTML = "";
 		headElem.innerHTML = quiz.results[quiz.result].text;
 		pagesElem.innerHTML = "Очки: " + quiz.score;
+		likesElem.innerHTML = "Подддержите нас лайками:";
+
+		var twi    = document.createElement('a');
+		twi.href = 'https://twitter.com/exo_bogixo';
+		twi.title = 'Твиттер БогиХО';
+		twi.appendChild(document.createTextNode('exo_bogixo'));
+		twiElem.appendChild(twi);
+
+		var vk    = document.createElement('a');
+		vk.href = 'https://vk.com/shimmi_shop';
+		vk.title = 'ВК Shimmishop';
+		vk.appendChild(document.createTextNode('shimmi_shop'));
+		vkElem.appendChild(vk);
 	}
 }
 
