@@ -207,7 +207,7 @@ const questions =
 
 	new Question(
 		`<link rel="stylesheet" type="text/css" href="styles/video.css">
-		<p>У кого из мемберов не было глича?</p>
+		<p>У кого из мемберов не было помех?</p>
 		<iframe src="https://www.youtube.com/embed/iwd8N6K-sLk" 
 		title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
 		encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
